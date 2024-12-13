@@ -18,7 +18,7 @@ $result_nome = mysqli_query($con, $query_nome);
 <body>
     <div class="container">
         <h1>Bem-vindo ao Sorteador de Amigo Oculto</h1>
-        <form action="data.php" method="POST">
+        <form action="sorteio.php" method="POST">
             <label for="nome">Selecione seu nome:</label>
             <select name="nome" id="nome" required>
                 <option value="" disabled selected>Escolha seu nome</option>
